@@ -6,3 +6,4 @@ Coronel, Walter Eduardo - Usuario: waltopo
 Mamani, Erick Rolando - Usuario: MamaniErick
 Salas, Jesica Abigail Solange - Usuario: J3si
 Ortiz, Lucas Maximiliano - usuario: lucasortiz512
+Soto, Guillermo Javier - Usuario: Javiersot0
