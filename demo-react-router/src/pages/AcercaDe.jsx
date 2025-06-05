@@ -1,4 +1,4 @@
-export default function AcercaDe() {
+const AcercaDe=()=> {
   return (
     <div>
       <h2>Acerca del Desarrollo del Proyecto</h2>
@@ -18,3 +18,4 @@ export default function AcercaDe() {
     </div>
   );
 };
+export default AcercaDe;
