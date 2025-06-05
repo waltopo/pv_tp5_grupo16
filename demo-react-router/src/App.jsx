@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import ListaAlumnos from "./pages/ListaAlumnos";
-import NuevoAlumno from "./pages/NuevoAlumno";
-import DetalleAlumno from "./pages/DetalleAlumno";
-import EditarAlumno from "./pages/EditarAlumno";
-import AcercaDe from "./pages/AcercaDe";
-import NavBar from "./components/NavBar";
+import Inicio from "./pages/Inicio.jsx";
+import ListaAlumnos from "./pages/ListaAlumnos.jsx";
+import NuevoAlumno from "./pages/NuevoAlumno.jsx";
+import DetalleAlumno from "./pages/DetalleAlumno.jsx";
+import EditarAlumno from "./pages/EditarAlumno.jsx";
+import AcercaDe from "./pages/AcercaDe.jsx";
+import NavBar from "./components/NavBar.jsx";
 
-import { cargarAlumnos, guardarAlumnos } from "./data/alumnosData";
+import { cargarAlumnos, guardarAlumnos } from "./data/alumnosData.js";
 
 function App() {
   const [alumnos, setAlumnos] = useState(() => cargarAlumnos());
@@ -37,7 +37,7 @@ function App() {
     <Router>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Inicio />} />
         <Route
           path="/alumnos"
           element={<ListaAlumnos alumnos={alumnos} onDelete={eliminarAlumno} />}
