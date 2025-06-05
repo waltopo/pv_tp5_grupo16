@@ -37,7 +37,7 @@ function App() {
     <Router>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Inicio />} />
+        <Route path="/" element={<Inicio/>} />
         <Route
           path="/alumnos"
           element={<ListaAlumnos alumnos={alumnos} onDelete={eliminarAlumno} />}
