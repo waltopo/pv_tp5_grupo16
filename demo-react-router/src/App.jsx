@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from 'react';
-import NavBar from "./components/NavBar";
+import AcercaDe from "./pages/AcercaDe.jsx";
+import NavBar from "./components/NavBar.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,7 +15,7 @@ function App() {
         <Route path="/alumnos/nuevo" element={<></>} />
         <Route path="/alumnos/:id" element={<></>} />
         <Route path="/alumnos/:id/editar" element={<></>} />
-        <Route path="/acerca" element={<></>} />
+        <Route path="/acerca" element={<AcercaDe/>} />
       </Routes>
     </Router>
   );
