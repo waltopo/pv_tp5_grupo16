@@ -3,7 +3,7 @@ import { useState } from 'react';
 import AcercaDe from "./pages/AcercaDe.jsx";
 import NavBar from "./components/NavBar.jsx";
 import NoEncontrado from "./pages/NoEncontrado.jsx";
-import Home from "./pages/home.jsx";
+import Home from "./pages/home.jsx"; //home
 
 function App() {
   const [count, setCount] = useState(0)

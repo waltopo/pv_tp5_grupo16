@@ -7,7 +7,7 @@ export default function Home() {
             <p>
                 Te damos la bienvenida a nuestra plataforma integral diseñada para simplificar y optimizar la
                 administración de la información de los estudiantes. Esta aplicación ha sido desarrollada
-                utilizando las tecnologías más modernas, como <strong>React</strong> y <strong>Vite</strong>, para
+                utilizando las tecnologías como <strong>React</strong> y <strong>Vite</strong>, para
                 ofrecer una experiencia de usuario rápida, fluida y eficiente.
             </p>
             <p>
