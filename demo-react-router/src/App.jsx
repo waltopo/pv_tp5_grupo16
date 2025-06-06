@@ -4,6 +4,7 @@ import AcercaDe from "./pages/AcercaDe.jsx";
 import NavBar from "./components/NavBar.jsx";
 import NoEncontrado from "./pages/NoEncontrado.jsx";
 import ListaDeAlumnos from "./components/ListaDeAlumnos.jsx";
+import Inicio from "./pages/Inicio.jsx";
 
 
 function App() {
