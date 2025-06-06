@@ -10,7 +10,7 @@ const ListaDeAlumnos = () => {
     if (window.confirm("¿Estás seguro de eliminar este alumno?")) {
         setAlumnos(alumnos.filter(alumno => alumno.id !== id));}
   };
-  
+
   return (
     <Box p={5}>
         <Text fontSize="2x1">Lista de Alumnos</Text> 
