@@ -1,9 +1,9 @@
 export default function Inicio() {
   return (
-    <div class="container">
+    <div>
 
-        <div class="card card-welcome">
-            <h1 class="title">¡Bienvenido al Sistema de Gestión de Alumnos!</h1>
+        <div>
+            <h1>¡Bienvenido al Sistema de Gestión de Alumnos!</h1>
             <p>
                 Te damos la bienvenida a nuestra plataforma integral diseñada para simplificar y optimizar la
                 administración de la información de los estudiantes. Esta aplicación ha sido desarrollada
@@ -17,7 +17,7 @@ export default function Inicio() {
             </p>
         </div>
 
-        <div class="card card-dark">
+        <div>
             <h2>¿Qué puedes hacer con nuestro sistema?</h2>
             <p>
                 Esta aplicación te permite realizar todas las operaciones fundamentales para una gestión completa,
@@ -48,7 +48,7 @@ export default function Inicio() {
             </ul>
         </div>
 
-        <div class="card card-navigation">
+        <div>
             <h2>Navegación y Experiencia de Usuario</h2>
             <p>
                 Hemos implementado <strong>React Router DOM</strong> para asegurar una navegación fluida y sin
