@@ -2,16 +2,13 @@ import React, { useState } from 'react';
 import { Box, Text, Button, Table, Thead, Tbody, Tr, Th, Td } from '@chakra-ui/react';
 import { useNavigate } from 'react-router-dom';
 
-
-
 const ListaDeAlumnos = () => {
   const alumnos = [alumnos, setAlumnos] = useState([]);
   const navigate = useNavigate();
 
   const handleDelete = (id) => {
     if (window.confirm("¿Estás seguro de eliminar este alumno?")) {
-        setAlumnos(alumnos.filter(alumno => alumno.id !== id));
-  }
+        setAlumnos(alumnos.filter(alumno => alumno.id !== id));}
   };
   
   return (
