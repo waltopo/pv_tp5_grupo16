@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Text, Button, Table, Thead, Tbody, Tr, Th, Td } from '@chakra-ui/react';
+
 import { useNavigate } from 'react-router-dom';
 
 const ListaDeAlumnos = () => {
@@ -37,9 +37,9 @@ const ListaDeAlumnos = () => {
                     <td>{alumno.domicilio}</td>
                     <td>{alumno.telefono}</td>  
                     <Td>
-                       <Buttom OnClick={() => navigate(`/alumnos/${alumno.id}/editar`)}>Editar</Buttom>
-                       <Buttom OnClick={() => handleDelete(alumno.id)} ml={2}>Eliminar</Buttom>
-                       <Buttom OnClick={() => navigate(`/alumnos/${alumno.id}/`)} ml={2}>Ver Detalles</Buttom>
+                       <Button OnClick={() => navigate(`/alumnos/${alumno.id}/editar`)}>Editar</Button>
+                       <Button OnClick={() => handleDelete(alumno.id)} ml={2}>Eliminar</Button>
+                       <Button OnClick={() => navigate(`/alumnos/${alumno.id}/`)} ml={2}>Ver Detalles</Button>
                     </Td>
                 </tr>
                 ))}
