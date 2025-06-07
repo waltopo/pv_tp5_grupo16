@@ -7,7 +7,7 @@ import DetalleAlumno from "./pages/DetalleAlumno.jsx";
 import EditarAlumno from "./pages/EditarAlumno.jsx";
 import AcercaDe from "./pages/AcercaDe.jsx";
 import NavBar from "./components/NavBar.jsx";
-
+import './App.css';
 import { cargarAlumnos, guardarAlumnos } from "./data/alumnosData.js";
 
 function App() {
@@ -37,7 +37,7 @@ function App() {
     <Router>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Inicio />} />
+        <Route path="/" element={<Inicio/>} />
         <Route
           path="/alumnos"
           element={<ListaAlumnos alumnos={alumnos} onDelete={eliminarAlumno} />}

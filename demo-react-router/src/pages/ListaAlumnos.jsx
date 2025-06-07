@@ -2,7 +2,7 @@ import AlumnoCard from "../components/AlumnoCard";
 
 const ListaAlumnos = ({ alumnos, onDelete }) => {
   return (
-    <div>
+    <div className="lista-alumnos">
       <h2>Lista de Alumnos</h2>
       {alumnos.length === 0 ? (
         <p>No hay alumnos registrados.</p>
