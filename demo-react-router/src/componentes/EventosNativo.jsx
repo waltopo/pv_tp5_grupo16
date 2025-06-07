@@ -16,7 +16,7 @@ function EventoNativo() {
     return (
         <div className="card">
             <h3>Evento Nativo</h3>
-            <p>Ancho actual de la ventana: {ancho}px</p>
+            <p>Ancho de la ventana {ancho}px</p>
         </div>
     );
 }

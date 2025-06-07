@@ -8,7 +8,7 @@ function BindingEventos() {
     return (
         <div className="card">
             <h3>Binding de Eventos</h3>
-            <button onClick={manejarClick}>Haz clic</button>
+            <button onClick={manejarClick}>clic</button>
         </div>
     );
 }
