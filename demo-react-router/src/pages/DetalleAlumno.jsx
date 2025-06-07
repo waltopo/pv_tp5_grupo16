@@ -9,7 +9,7 @@ const DetalleAlumno = ({alumnos}) => {
     
     return (
         <div>
-            <h3>Detalle del alumno {alumno.nombre}</h3>
+            <h3>Detalle del Alumno {alumno.nombre}</h3>
             <p><strong>LU:</strong> {alumno.id}</p>
             <p><strong>Nombre:</strong> {alumno.nombre}</p>
             <p><strong>Apellido:</strong> {alumno.apellido}</p>

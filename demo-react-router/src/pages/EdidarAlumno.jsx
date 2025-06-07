@@ -6,7 +6,7 @@ const EditarAlumno = ({alumnos, onUpdate}) => {
     const alumno = alumnos.find((a) => a.id === id);
     const navigate = useNavigate();
 
-    if (!alumno) return <p>Alumno no encontrado</p>;
+    if (!alumno) return <p>Alumno no Encontrado</p>;
 
     const handleEdit = (alumnoEditado) => {
         onUpdate(alumnoEditado);
