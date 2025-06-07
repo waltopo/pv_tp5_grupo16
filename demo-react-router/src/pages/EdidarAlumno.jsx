@@ -23,4 +23,5 @@ const EditarAlumno = ({alumnos, onUpdate}) => {
     );
 }
 
+
 export default EditarAlumno;

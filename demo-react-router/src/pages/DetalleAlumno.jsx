@@ -4,6 +4,7 @@ const DetalleAlumno = ({alumnos}) => {
     const {id} = useParams();
     const alumno = alumnos.find(a => a.id === id);
 
+    
     if (!alumno) return <p>Alumno no encontrado</p>;
     
     return (
