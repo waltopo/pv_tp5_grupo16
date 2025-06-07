@@ -1,6 +1,6 @@
 import {link} from "react-router-dom";
 
-const ListaDeAlumnos = ({alumnos , onDeleteAlumno,}) => {
+const Alumno = ({alumnos , onDeleteAlumno,}) => {
   return (
     <div>
       <h3>{alumnos.nombre} {alumnos.apellido}</h3>
@@ -11,4 +11,4 @@ const ListaDeAlumnos = ({alumnos , onDeleteAlumno,}) => {
     </div>
   );
 };
-export default ListaDeAlumnos;
+export default AlumnoCard;
