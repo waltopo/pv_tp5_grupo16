@@ -1,4 +1,4 @@
-export default function Inicio() {
+const Inicio =()=> {
   return (
     <div>
 
@@ -64,4 +64,6 @@ export default function Inicio() {
 
     </div>
   );
-}
+};
+
+export default Inicio;

@@ -1,5 +1,5 @@
 
-function NoEncontrado() {
+const NoEncontrado=()=> {
   return (
     <div>
       <h1>ERROR</h1>
